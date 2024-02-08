@@ -1,0 +1,8 @@
+#root {
+  margin: 20px 40px;
+}
+@media (max-width: 600px) {
+  #root {
+    margin: 0px 2px;
+  }
+}

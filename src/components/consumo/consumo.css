@@ -1,0 +1,101 @@
+.tabela-container {
+  margin: 20px auto;
+  overflow-x: auto; /* Adicionando rolagem horizontal em telas pequenas */
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th,
+td {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 4px;
+}
+
+.titulo-principal {
+  background-color: green;
+  color: white;
+  text-align: center;
+  padding: 10px;
+}
+
+.titulo-sub {
+  background-color: green;
+  color: white;
+  padding: 5px;
+  text-align: center;
+}
+
+.saldo {
+  background-color: green;
+  color: white;
+}
+
+input[type="text"] {
+  width: 100%; /* Alterando a largura para preencher a célula da tabela */
+  padding: 8px;
+  margin-top: 5px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type="text"]:focus {
+  outline: none;
+  border-color: dodgerblue;
+}
+
+.despesa {
+  font-weight: bold;
+}
+
+.despesa td:first-child {
+  padding-left: 20px;
+}
+.total-container {
+  background-color: #f2f2f2;
+  padding: 10px;
+}
+
+.total-container h2 {
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+}
+
+.total-container p {
+  margin: 5px 0;
+}
+
+.total-container button {
+  padding: 8px 16px;
+  font-size: 1rem;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.total-container button:hover {
+  background-color: #45a049;
+}
+
+@media (max-width: 600px) {
+  /* Estilos adicionais para telas maiores (como tablets) */
+  .tabela-container {
+    overflow-x: initial; /* Removendo a rolagem horizontal */
+  }
+
+  input[type="text"] {
+    width: auto; /* Definindo a largura automática para dispositivos maiores */
+  }
+  th,
+  td {
+    font-size: 12px;
+  }
+}

@@ -1,0 +1,46 @@
+.tabela-container {
+  margin: 20px auto;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th,
+td {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+.titulo-principal {
+  background-color: green;
+  color: white;
+  text-align: center;
+  padding: 10px;
+}
+
+.titulo-sub {
+  background-color: green;
+  color: white;
+  padding: 5px;
+  text-align: center;
+}
+
+select,
+input[type="text"] {
+  width: calc(100% - 18px);
+  padding: 8px;
+  margin-top: 5px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+select:focus,
+input[type="text"]:focus {
+  outline: none;
+  border-color: dodgerblue;
+}
