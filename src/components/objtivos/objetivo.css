@@ -15,14 +15,14 @@ td {
 }
 
 .titulo-principal {
-  background-color: green;
+  background-color: #485342;
   color: white;
   text-align: center;
   padding: 10px;
 }
 
 .titulo-sub {
-  background-color: green;
+  background-color: #5c6756;
   color: white;
   padding: 5px;
   text-align: center;
@@ -42,5 +42,5 @@ input[type="text"] {
 select:focus,
 input[type="text"]:focus {
   outline: none;
-  border-color: dodgerblue;
+  border-color: none;
 }

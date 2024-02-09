@@ -1,6 +1,6 @@
 .tabela-container {
   margin: 20px auto;
-  overflow-x: auto; /* Adicionando rolagem horizontal em telas pequenas */
+  overflow-x: auto;
 }
 
 table {
@@ -16,26 +16,26 @@ td {
 }
 
 .titulo-principal {
-  background-color: green;
+  background-color: #5c6756;
   color: white;
   text-align: center;
   padding: 10px;
 }
 
 .titulo-sub {
-  background-color: green;
+  background-color: #5c6756;
   color: white;
   padding: 5px;
   text-align: center;
 }
 
 .saldo {
-  background-color: green;
+  background-color: #5c6756;
   color: white;
 }
 
 input[type="text"] {
-  width: 100%; /* Alterando a largura para preencher a célula da tabela */
+  width: 100%;
   padding: 8px;
   margin-top: 5px;
   margin-bottom: 10px;
@@ -68,12 +68,14 @@ input[type="text"]:focus {
 
 .total-container p {
   margin: 5px 0;
+  width: 210px;
+  padding: 5px 10px;
 }
 
 .total-container button {
   padding: 8px 16px;
   font-size: 1rem;
-  background-color: #4caf50;
+  background-color: #5c6756;
   color: white;
   border: none;
   border-radius: 4px;
@@ -82,17 +84,25 @@ input[type="text"]:focus {
 }
 
 .total-container button:hover {
-  background-color: #45a049;
+  background-color: #5c6756;
+}
+
+.saldo-negativo {
+  background-color: red;
+  color: white;
+}
+.saldo-positivo {
+  background-color: #f2f2f2;
+  color: rgb(0, 0, 0);
 }
 
 @media (max-width: 600px) {
-  /* Estilos adicionais para telas maiores (como tablets) */
   .tabela-container {
-    overflow-x: initial; /* Removendo a rolagem horizontal */
+    overflow-x: initial;
   }
 
   input[type="text"] {
-    width: auto; /* Definindo a largura automática para dispositivos maiores */
+    width: auto;
   }
   th,
   td {

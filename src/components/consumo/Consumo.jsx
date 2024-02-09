@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import "./consumo.css"; // Importando o arquivo de estilos CSS
+import "./consumo.css";
 
 function Consumo() {
   const [rendaMensal, setRendaMensal] = useState({
@@ -92,7 +92,7 @@ function Consumo() {
         <thead>
           <tr>
             <th colSpan="4" className="titulo-principal">
-              TABEFA SOBRE CONSUMO
+              TAREFA SOBRE CONSUMO
             </th>
           </tr>
         </thead>
@@ -353,7 +353,15 @@ function Consumo() {
               <h2>Total</h2>
               <p>Renda Total: {total.rendaTotal.toFixed(2)}</p>
               <p>Despesa Total: {total.despesaTotal.toFixed(2)}</p>
-              <p>Saldo no Fim do Mês: {total.saldoFimMes.toFixed(2)}</p>
+              <p
+                className={
+                  total.saldoFimMes.toFixed(2) < 0
+                    ? "saldo-negativo"
+                    : "saldo-positivo"
+                }
+              >
+                Saldo no Fim do Mês: {total.saldoFimMes.toFixed(2)}
+              </p>
             </td>
           </tr>
         </tfoot>
