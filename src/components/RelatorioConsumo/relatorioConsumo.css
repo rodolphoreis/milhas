@@ -1,0 +1,114 @@
+.finance-manager-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.relatorio-container h2 {
+  text-align: center;
+  margin-bottom: 40px;
+  color: #5c6756;
+}
+.register {
+  margin-bottom: 20px;
+  padding: 20px;
+  background-color: #f0f0f0;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.td_title {
+  font-weight: 800;
+  text-align: center;
+  font-size: 22px;
+  background-color: #9b9f99;
+}
+.total {
+  color: white;
+}
+
+.register h1 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.register p {
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+.register input {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.register .typeInfo {
+  margin-bottom: 20px;
+}
+
+.register .typeInfo p {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.register .typeInfo button {
+  padding: 8px 16px;
+  font-size: 16px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-right: 10px;
+}
+
+.register .typeInfo button:last-child {
+  margin-right: 0;
+}
+
+.register .insertButton {
+  padding: 8px 16px;
+  font-size: 16px;
+  background-color: #5c6756;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.resume {
+  padding: 20px;
+  background-color: #f0f0f0;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+}
+
+.resume h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.resume button {
+  padding: 8px 16px;
+  font-size: 16px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-right: 10px;
+}
+
+.resume button:last-child {
+  margin-right: 0;
+}
+.total-row {
+  background-color: #5c6756;
+  font-weight: bold;
+}
+
+.valor-total {
+  color: white;
+}

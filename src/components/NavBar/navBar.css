@@ -1,0 +1,20 @@
+nav {
+  justify-content: center;
+  margin-top: 70px;
+  margin-bottom: 70px;
+  text-align: center;
+}
+nav a {
+  margin: 60px 10px;
+  text-decoration: none;
+  font-size: 16px;
+  color: gray;
+  font-family: sans-serif;
+}
+.active {
+  border: 1px solid #5c6756;
+  background-color: #5c6756;
+  color: white;
+  border-radius: 16px;
+  padding: 10px 20px;
+}
